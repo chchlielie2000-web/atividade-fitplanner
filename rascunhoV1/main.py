@@ -46,6 +46,8 @@ def salvarArquivo(caminho, dicionario, textos): #função geral TESTAR
     return arquivo
 
 def renomearArquivo(caminho):
+    if not os.path.exists("files/treinos"):
+        os.makedirs("files/treinos")
     arquivos = sorted(os.listdir(caminho))
     for i, arquivo in enumerate(arquivos, start=1):
         os.rename(f"{caminho}/{arquivo}", f"{caminho}/dados_{i}.txt")
