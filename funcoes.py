@@ -153,7 +153,6 @@ def listarExercicios(exercicios, categoria):
 #     # dicionarioTreino["exercicios"] = exerciciosTreino
 #     return exerciciosTreino
 
-
 #Seção controle de metas
 
 def viewGoals():

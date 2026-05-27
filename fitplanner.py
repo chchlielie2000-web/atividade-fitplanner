@@ -367,6 +367,7 @@ while True:
             elif opcaoExercicio == 0: # fim
                 print("break")
                 break
+
 #-----> Controle de metas
     elif opcao == 3:
         while True:
